@@ -41,6 +41,7 @@ public slots:
 
 private:
     QString lastErrorFileName_;
+    bool Manage::FindFile(const QString& path, QStringList& files);
 };
 
 }
